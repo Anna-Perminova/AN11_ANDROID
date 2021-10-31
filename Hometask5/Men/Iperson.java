@@ -1,4 +1,4 @@
-public interface Iperson {
+public interface IPerson {
 
     void action();
     String getFirm();
