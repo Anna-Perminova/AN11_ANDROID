@@ -8,7 +8,7 @@ public class Military extends AirTransport{
         this.countRocket = countRocket;}
 
     public void resPlane1() {
-        if (bailout=true) {
+        if (bailout) {
             System.out.println("Катапультирование прошло успешно");
         } else {
             System.out.println("У вас нет такой системы");
