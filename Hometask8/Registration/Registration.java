@@ -20,7 +20,7 @@ public class Registration {
         String massage;
 
         public WrongLoginException(String str) {
-            massage = str;
+            super(massage);
         }
 
         public String toString() {
