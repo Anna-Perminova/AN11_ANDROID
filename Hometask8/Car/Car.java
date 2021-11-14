@@ -40,7 +40,7 @@ public class Car {
 
     class EvenNumberException extends Exception {
         public EvenNumberException(String name) {
-            System.err.println("Машина " + name + " сломалась");
+            super("Машина " + name + " сломалась");
         }
     }
 
