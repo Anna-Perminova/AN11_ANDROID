@@ -1,7 +1,7 @@
 import java.util.TreeSet;
 
 class HeavyBox implements Comparable<HeavyBox> {
-    Integer id;
+    private Integer id;
     Integer weigth;
 
     public HeavyBox(Integer weigth, Integer id) {
